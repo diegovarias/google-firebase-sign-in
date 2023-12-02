@@ -1,7 +1,5 @@
 package com.example.googlesignin
 
-
-
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -15,15 +13,11 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.GoogleAuthProvider
 
 class SignInActivity : AppCompatActivity() {
-
-
     companion object {
         private const val RC_SIGN_IN = 9001
     }
 
     private lateinit var auth: FirebaseAuth
-
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -31,19 +25,13 @@ class SignInActivity : AppCompatActivity() {
 
         auth = FirebaseAuth.getInstance()
 
-
-
         val currentUser = auth.currentUser
 
         if (currentUser != null) {
-            // The user is already signed in, navigate to MainActivity
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
-            finish() // finish the current activity to prevent the user from coming back to the SignInActivity using the back button
+            finish()
         }
-
-
-
 
         val signInButton = findViewById<Button>(R.id.signInButton)
         signInButton.setOnClickListener {
