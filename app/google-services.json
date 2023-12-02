@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "604152695480",
+    "project_id": "signin-8fe61",
+    "storage_bucket": "signin-8fe61.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604152695480:android:221264d127b9d9318a024d",
+        "android_client_info": {
+          "package_name": "com.example.googlesignin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "604152695480-e4r4ikobd4o4e65q3q9ns1pjsvtvfc6u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.googlesignin",
+            "certificate_hash": "8017c840ab76817123c67ae8e1fb2e39fc1e6284"
+          }
+        },
+        {
+          "client_id": "604152695480-2oqrt8mhhs6fc1km11q1mksqr780blv2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-qHM2K59cPFFAvu_XERTXCmIuza_n17Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "604152695480-2oqrt8mhhs6fc1km11q1mksqr780blv2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
