@@ -10,6 +10,7 @@
 | Jairo Jubynni Soto Garcia | SG080419 |
 | María Dolores Martínez León | ML202278 |
 
-#### VIDEO:
+#### Enlaces:
 
-https://www.youtube.com/watch?v=u3Z_F4IkDNY
+* [Documento](https://drive.google.com/file/d/1neqNn4Pn57HFzIkr8hFGwaJPhdBU8qXo/view?usp=sharing)
+* [Video](https://www.youtube.com/watch?v=u3Z_F4IkDNY)
